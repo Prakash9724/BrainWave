@@ -1,14 +1,12 @@
 import React from 'react'
-import Button from './components/Button'
+
 import ButtonGradient from './assets/svg/ButtonGradient'
+import Header from './components/Header'
 const App = () => {
   return (
     <>
-    <h1 className='text-3xl font-bold underline'> Hwll</h1>
-    <div className='pt-[4.75] lg:pt-[5.25] overflow-hidden'>
-        <Button classname='mt-10'>
-          Somthing
-        </Button>
+    <div className='pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden'>
+        <Header/>
     </div>
     <ButtonGradient/>
     </>
